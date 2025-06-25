@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <title>Savior Cafe - Contact</title>
+</head>
+<body>
+    <!--Start Navigation-->
+    <header>
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" alt="Savior Cafe Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reservation.html"  class="active" id="reservation">Reservation</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navbar-line"></div>
+    </header>
+    <!--End Navigation-->
+
+    <!--Start Landing Page-->
+    <div class="landingPage">
+        <img src="images/img2.jpg" alt="Contact Background">
+        <h2>Reservations </h2>
+        <p><a href="index.html">Home</a> &gt; Make Reservations</p>
+    </div>
+    <!--End Landing Page-->
+
+    <!--Reservations Start-->
+    <div class="Reservations">
+        <h2>Reservations</h2>
+        <h4>Book a table online</h4>
+        <p class="reservation-intro">
+            Secure your spot at Savior Café for an exceptional dining experience. Whether it’s an intimate dinner, 
+            a family gathering, or a business meeting, we are here to make it memorable. Book your table today!
+        </p>
+        
+        <div class="reservation-container">
+            <!-- Left Side: Contact Info -->
+            <div class="reservation-info">
+                <p>We welcome reservations for all occasions. If you have any special requirements such as birthday setups, 
+                    private dining, or dietary preferences, feel free to let us know.</p>
+                <p><i class="fas fa-phone"></i> Phone: +27 12 345 6789</p>
+                <p><i class="fas fa-mobile-alt"></i> Cell: +27 71 234 5678</p>
+                <a href="Contact.html"><button class="contact-btn">Contact</button></a>
+            </div>
+
+            <!-- Right Side: Reservation Form -->
+            <form action="" id="reservationForm" class="reservation-form">
+                <div class="form-row">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-row">
+                    <input type="datetime-local" id="datetime" required>
+                    <select id="people" required>
+                        <option value="1">People 1</option>
+                        <option value="2">People 2</option>
+                        <option value="3">People 3</option>
+                        <option value="4+">People 4+</option>
+                    </select>
+                </div>
+                <textarea id="request" placeholder="Special Request"></textarea>
+                <button type="submit" class="book-now-btn">BOOK NOW</button>
+            </form>
+            
+        </div>
+    </div>
+    <!--Reservations End-->
+
+    <!-- Customer Testimonial Start -->
+    <div class="testimonial">
+            <h1>Customer Testimonial</h1>
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial-item">
+                        <img src="/images/staff1.jpg" alt="Client 1" class="testimonial-image">
+                        <h3>John Doe</h3>
+                        <p class="testimonial-text">"This business has changed my life! The service is exceptional, and I couldn’t be happier with the results. Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="/images/staff2.jpg" alt="Client 2" class="testimonial-image">
+                        <h3>Jane Smith</h3>
+                        <p class="testimonial-text">"Amazing experience from start to finish. I will definitely be coming back and recommending to my friends!"</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="/images/staff1.jpg" alt="Client 3" class="testimonial-image">
+                        <h3>Michael Brown</h3>
+                        <p class="testimonial-text">"A wonderful atmosphere and top-notch service. Five stars all the way!"</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="/images/staff1.jpg" alt="Client 3" class="testimonial-image">
+                        <h3>Michael Brown</h3>
+                        <p class="testimonial-text">"A wonderful atmosphere and top-notch service. Five stars all the way!"</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="/images/staff1.jpg" alt="Client 3" class="testimonial-image">
+                        <h3>Michael Brown</h3>
+                        <p class="testimonial-text">"A wonderful atmosphere and top-notch service. Five stars all the way!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+    </div>
+    <!-- Customer Testimonial End -->
+    
+    <!-- Footer Section Start-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <img src="images/logo.jpg" alt="Company Logo">
+                <p>We are committed to providing top-notch services, ensuring customer satisfaction, and delivering quality results.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Reservation.html">Reservations</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 203 Bulwer Rd, Berea, Durban</p>
+                <p><i class="fas fa-phone"></i> +27 12 345 6789</p>
+                <p><i class="fas fa-envelope"></i> info@example.com</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Savior Cafe | All Rights Reserved.</p>
+            <p id="design">Designed by ZH Madlala</p>
+        </div>
+        
+        <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+    </footer>
+    <!-- Footer Section End--> 
+
+
+     <!--JS links-->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script src="/JS/main.js"></script>
+    
+</body>
+</html>
